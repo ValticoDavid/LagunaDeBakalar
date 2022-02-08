@@ -1,0 +1,179 @@
+@media (min-width: 700px) {
+    html {
+        box-sizing: border-box;
+    }
+    body {
+        
+        background-color: #8EB4C2;
+    }
+    /* Estilos Globales */
+    h1 {
+        font-family: 'Lobster', cursive;
+        font-size: 70px;
+        color: #2C384F;
+    }
+    h2 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+    }
+    h3 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+        color: #2C384F;
+        text-align: center;
+        border-top: solid #ffffff;
+    }
+    h4 {
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        color: #2C384F;
+        text-align: center;
+    }
+    h5 {
+        font-family: 'Lobster', cursive;
+        font-size: 25px;
+        color: #2C384F;
+        text-align: center;
+    }
+    h6 {
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        color: #2C384F;
+        text-align: center;
+    }
+    p {
+        font-family: 'Courgette', cursive;
+        font-size: 25px;
+        color: #3A5683;
+        margin: none;
+        padding: 2%;
+        display: inline;
+        text-align: justify;
+    }
+    .otra-reserva {
+        text-decoration: none;
+        color: #2C384F;
+    }
+    .otra-reserva a:hover {
+        background-color: #ECE2C6;
+        border-radius: 30%;
+        transition: 1s;
+    }
+    /* Utilidadades */
+    .seccion {
+        max-width: 120rem;
+        max-height: 300rem;
+        margin: 2px;
+        border-color: solid #1D191A;
+    }
+    .contenedor {
+        max-width: 120rem;
+        margin: 0 auto;
+        border: solid #1D191A;
+        display: flex;
+        justify-content: space-between;
+    }
+    .center {
+        border-color: 2px solid #1D191A;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    /* Header */
+    .contenedor-header {
+        max-width: 120rem;
+        max-height: 85rem;
+        background-image: url(../IMG/header_bacalar.jpg);
+        background-position: center;
+        background-size: auto;
+        border: solid #1D191A;
+        /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    }
+    /* MENU INICIO */
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-navegacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: .2rem .2rem;
+    }
+    .menu-navegacion a {
+        color: #2C384F;
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+        font-size: 25px;
+        margin: .5rem .5rem;
+        padding: .2rem .2rem;
+    }
+    .menu-navegacion a:hover {
+        background-color: #ECE2C6;
+        transition: .6s;
+        border: 1px solid #1D191A;
+        border-radius: 30%;
+    }
+    /* RESERVACION */
+    label {
+        font-family: 'Courgette', cursive;
+        font-size: 25px;
+        color: #3A5683;
+        margin: none;
+        padding: none;
+    }
+    .style-form {
+        border: 3px solid #1D191A;
+        text-align: center;
+    }
+
+    textarea {
+        height: 100px;
+        width: 90%;
+    }
+
+    /*MENU HEADER MAS PAGINAS*/
+    .style-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 2px;
+        padding: .2rem .2rem;
+        text-align: end;
+        background-image: url(../IMG/header_bacalar.jpg);
+        background-position: center;
+        background-size: auto;
+        border: solid #1D191A;
+    }
+    .menu-nav a {
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        color: #2C384F;
+        font-size: 25px;
+        margin: 10px;
+        display: flex;
+        justify-content: center center;
+    }
+    .menu-nav a:hover {
+        color: #ECE2C6;
+    }
+    /* FOOTER */
+    .footer {
+        border-top:solid 2px #2C384F;
+        padding: 1rem 0.2rem 0.2rem 0.2rem;
+        text-align: end;
+    }
+    .footer-menu a {
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        color: #2C384F;
+        font-size: 25px;
+        margin: 10px;
+    }
+    .footer-menu a:hover {
+        color: #ECE2C6;
+    }
+}
